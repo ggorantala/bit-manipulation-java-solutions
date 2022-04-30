@@ -3,8 +3,8 @@ package operators.and;
 public class PowerOfTwo {
 
   public static void main(String[] args) {
-    System.out.println(helper(6));
-    System.out.println(helper(8));
+    System.out.println(isPowerOfTwo(6));
+    System.out.println(isPowerOfTwoOptimal(8)); // recommended approach
   }
 
   // Time: O(logn), we can do better using brian kernighan's algorithm
