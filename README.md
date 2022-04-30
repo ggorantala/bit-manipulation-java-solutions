@@ -32,7 +32,7 @@ Computer programming tasks that require bit manipulation include:
 
 ## List of Bitwise operators
 
-| **Operator** | **Name of Operator** | ** Usage** |
+| **Operator** | **Name of Operator** | **Usage** |
 | :---: | :---: |  :---: |
 | `&`  | Bitwise AND |Used to mask particular part of byte |
 |  `\|`  | Bitwise OR | |
