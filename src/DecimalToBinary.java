@@ -11,13 +11,12 @@ public class DecimalToBinary {
 
   // bit shifting approach
   private static int bitShifting(int n) {
-    int bitsCounter = 0;
-
-    while ((1 << bitsCounter) <= n) {
-      bitsCounter += 1;
+    int count = 0;
+    while (n > 0) {
+      ++count;
+      n >>= 1; // this is equivalent to (n = n >> 1) OR (n = n/2);
     }
-
-    return bitsCounter;
+    return count;
   }
 
   // optimal solution - bit shifting
