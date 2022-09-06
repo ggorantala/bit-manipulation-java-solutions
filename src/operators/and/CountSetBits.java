@@ -7,7 +7,7 @@ public class CountSetBits {
     System.out.println("SetBit Count is : " + countSetBits01(number));
     System.out.println("SetBit Count is : " + countSetBits02(number));
     System.out.println(
-        "SetBit Count is : " + brainKernighansAlgorithm(number)); // optimal approach (recommended)
+        "SetBit Count is : " + brainKernighanAlgorithm(number)); // optimal approach (recommended)
     System.out.println(
         "SetBit Count is : " + lookupTableApproach(number)); // optimal approach (recommended)
   }
@@ -59,7 +59,7 @@ public class CountSetBits {
   // Time: O(set-bit count)/ O(1), where setbit means number of `1` bits present in the given number
   // In the worst case, all 32bits can be `1` bits, so O(32) or O(64) time
   // Space: O(1), no extra memory allocated
-  private static int brainKernighansAlgorithm(int n) {
+  private static int brainKernighanAlgorithm(int n) {
     int count = 0;
     while (n > 0) {
       n &= (n - 1);

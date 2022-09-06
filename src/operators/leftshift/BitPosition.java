@@ -1,12 +1,11 @@
 package operators.leftshift;
 
-public class FirstSetBitPosition {
+public class BitPosition {
   public static void main(String[] args) {
-    System.out.println("First setbit position for number: 18 is -> " + getFirstSetBitPos(18));
-    System.out.println("First setbit position for number: 5 is -> " + getFirstSetBitPos(5));
-    System.out.println("First setbit position for number: 32 is -> " + getFirstSetBitPos(32));
+    System.out.println("First set-bit position for number: 18 is -> " + getFirstSetBitPos(18));
+    System.out.println("First set-bit position for number: 5 is -> " + getFirstSetBitPos(5));
+    System.out.println("First setb-it position for number: 32 is -> " + getFirstSetBitPos(32));
   }
-
 
   // Time: O(1), always constant, as we are dealing with bit representation of decimals or ASCII.
   // They are represented in either 32/64

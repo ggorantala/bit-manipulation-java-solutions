@@ -1,6 +1,6 @@
 package operators.rightshift;
 
-public class GetFirstSetBitPos {
+public class BitPosition {
   public static void main(String[] args) {
     System.out.println("First set-bit position for number: 18 is -> " + helper(18));
     System.out.println("First set-bit position for number: 5 is -> " + helper(5));

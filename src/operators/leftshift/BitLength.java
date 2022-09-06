@@ -1,6 +1,6 @@
 package operators.leftshift;
 
-public class FindBitLengthOfANumber {
+public class BitLength {
   public static void main(String[] args) {
     System.out.println(bitsLength(8));
     System.out.println(bitsLength(2));

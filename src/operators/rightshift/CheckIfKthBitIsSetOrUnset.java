@@ -14,6 +14,8 @@ public class CheckIfKthBitIsSetOrUnset {
     System.out.println("n = 10, k = 1 : " + checkKthBitSet01(10, 1));
   }
 
+  // Time: O(1)
+  // Space: O(1)
   private static int checkIfKthSetOrUnset(int n) {
     if (n == 0) {
       return 0;
