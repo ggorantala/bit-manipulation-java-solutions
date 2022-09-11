@@ -12,7 +12,7 @@ By completing this course, you will be able to solve problems faster with greate
 2. Master the bit manipulation, which allows you to organize all inputs in binary representation at the memory levels.
 3. Master how the bit-level operations are computed. Understand that bit-level operations are based on all the arithmetic operations built into all languages.
 4. Solve problems commonly asked in coding interviews related to bit manipulation.
-5. These bit tricks could help competitive programming in running algorithms, mainly in `O(1)` time.
+5. These bit tricks could help competitive programming in run algorithms, mainly in `O(1)` time.
 
 
 course link: [Grokking Bit Manipulation For Coding Interviews](https://www.educative.io/courses/bit-manipulation?aff=xjzd)
